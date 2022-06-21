@@ -37,22 +37,24 @@ h2{
 
 /*////////////////CONTAINER2/////////////////*/
 .container2{
-    padding: 50px;
+    padding: 40px;
     margin-right: 50px;
-    width: 50%;
-    
+    max-width: 1200px;
+   
 }
-.container2 h5{
-    background-color: rgb(67, 13, 128);
+.box{
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 5px;
     color: hsl(246, 25%, 77%);
     height: 30px;
-    /* width: 198%; */
-    padding-top: 10px;
-    padding-left: 10px;
-    font-size: 11px;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    font-size: 16px;
     text-align: center;
+    justify-content: center;
 }
-.container2 h5 span{
+.box span{
     color: white;
 }
 form{
@@ -60,12 +62,19 @@ form{
 }
 .cont{
     background-color: white;
-    /* width: 185%; */
+    border-radius: 5px;
+    box-shadow: 0 6px rgba(0, 0, 0, 0.2);
     padding: 20px;
     height: 300px;
+    margin-top: 20px;
 }
 input{
-    padding-left: 20px;
+    padding-left: 15px 25px;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid hsl(246, 25%, 77%);
+    font-size: 14px;
+    font-weight: 500;
 }
 #fname{
     width: 100%;
@@ -87,7 +96,6 @@ input{
     margin-top: 10px;
 }
 #password{
-    margin-top: 5px;
     width: 100%;
     box-shadow: 1px grey;
     height: 40px;
@@ -103,12 +111,14 @@ input{
     height: 30px;
     border-radius: 5px;
 }
-.cont p{
-    font-size: 8px;
+.container2 small{
+    font-size: 12px;
+    font-weight: 500;
     color: hsl(246, 25%, 77%);
-    text-align: center;
-    
+    margin-top: 10px;
+
 }
-.cont p span{
+.cont small span{
     color: hsl(0, 100%, 74%);
+    text-decoration: none;
 }
